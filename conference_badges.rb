@@ -7,4 +7,6 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(speaker)
-  
+  speaker.collect |speaker|
+  "Hello, my name is #{speaker}"
+end
